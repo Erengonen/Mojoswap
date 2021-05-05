@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "blockNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "getPriorVotes",
+				"outputs": [
+					{
+						"internalType": "uint96",
+						"name": "",
+						"type": "uint96"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"governance/contracts/GovernorAlpha.sol": "UniInterface"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"governance/contracts/GovernorAlpha.sol": {
+			"keccak256": "0xee27855e146d3e449487221224184004b9472823ee371ed9fac08ec93615947d",
+			"urls": [
+				"bzz-raw://df824231152446246e508119ea718eb799b69e2c9e88606e649d62da79cf1d8e",
+				"dweb:/ipfs/QmY6kUwV8K1wAeBSGrUQVK5vVxojydyopo4P4oxbTn4ycc"
+			]
+		}
+	},
+	"version": 1
+}
